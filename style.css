@@ -1,0 +1,58 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #c5e7f5;
+  background-image: url('https://sl.bing.net/gzFgiCHXHsy');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 750px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #87ceeb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #ba5b4f;
+  margin-bottom: 25px;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 18px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.closing {
+  font-weight: bold;
+  font-style: italic;
+  color: #6b3028;
+}
+
+.gallery {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
